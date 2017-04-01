@@ -31,6 +31,10 @@ section {
 .owl-theme .owl-controls .owl-page span {
   background: rgba(34, 34, 34, 0.5);
 }
+
+.owl-pagination {
+  display: none;
+}
 input.form-control {
   border-radius: 0 !important;
 }
@@ -1170,4 +1174,12 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 .testimonials img {
   max-height: 768px !important;
   min-width: auto;
+}
+
+table {
+  width: 70%;
+}
+
+td:nth-child(1) {
+  width: 100px;
 }
